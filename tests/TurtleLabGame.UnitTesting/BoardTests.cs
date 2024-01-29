@@ -6,8 +6,8 @@ namespace TurtleLabGame.UnitTesting
     [TestFixture]
     public class BoardTests
     {
-        private const string BoardFilePath = @"C:\www\TurtleLabGame.App\board.txt";
-        private const string MovesFilePath = @"C:\www\TurtleLabGame.App\move.txt";
+        private const string BoardFilePath = @"D:\www\TurtleLabGame.App\src\TurtleLabGame.App\files\board.txt";
+        private const string MovesFilePath = @"D:\www\TurtleLabGame.App\src\TurtleLabGame.App\files\move.txt";
 
         [Test]
         public void BoardInitialization_ValidFiles_InitializeBoard()
