@@ -18,7 +18,6 @@ namespace TurtleLabGame.UnitTesting
             // Assert
             Assert.NotNull(board);
             Assert.NotNull(board.Turtle);
-            // Add more assertions based on your specific initialization logic
         }
 
         [Test]
@@ -52,8 +51,6 @@ namespace TurtleLabGame.UnitTesting
             Mock.Get(turtleMock).Verify(x => x.RotateRight(), Times.Once);
             Mock.Get(turtleMock).Verify(x => x.Move(), Times.Never);
         }
-
-        // Add more tests for other methods as needed
 
         [Test]
         public void IsMoveValid_TurtleOnMine_ReturnsTrue()
