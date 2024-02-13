@@ -113,9 +113,6 @@ namespace TurtleLabGame.Domain.Entities
             exitY = 4;
 
             // Initialize mines list
-            mines = new List<Tuple<int, int>>();
-
-            // Initialize mines list
             mines = new List<Tuple<int, int>>()
             {
                 new Tuple<int, int>(1, 1),
